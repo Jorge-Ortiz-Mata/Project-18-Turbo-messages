@@ -1,24 +1,12 @@
-# README
+# Turbo Messages.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on rails Application. You can send and receive instantly messages
+with another browser.
 
-Things you may want to cover:
+## Software.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 3.0
+* Ruby on Rails: 7.0
+* HTML 5
+* Node Js
+* Yarn
