@@ -1,0 +1,10 @@
+<h1>Chatroom</h1>
+<div id="messages">
+  <% @messages.each do |message| %>
+    <%= render message %>
+  <% end %>
+</div>
+<div>
+  <%= turbo_stream_from @messages_channel %>
+  <%= render "messages/form", message: @message %>
+</div>
